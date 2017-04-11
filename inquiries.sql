@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 11, 2017 at 04:21 AM
+-- Generation Time: Apr 11, 2017 at 08:49 AM
 -- Server version: 5.7.14
--- PHP Version: 5.6.25
+-- PHP Version: 7.0.10
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -6268,7 +6268,7 @@ INSERT INTO `inquiries` (`inquiryid`, `refno`, `date_posted`, `mobile_no`, `dire
 (6193, 'pnn5y', '2016-02-16 12:45:37', 't_mid.1455597356586:db6d0ddb7362c63a93', 'i', '3', '', 'thank you po :)', '17', 'm_mid.1455597941150:3d0f127b893c37ac55', '{"name":"Hanika Maghirang","email":null,"fbuserid":"100001071015436"}'),
 (6194, '360th', '2016-02-16 12:46:21', 't_mid.1455596608252:3c55ce82b19e2a4277', 'o', '4', 'rpsolis@uplbosa.org', 'Good day Patrick! You can login to www.uplbosa.org using your UP Mail. Thanks!', '', '', ''),
 (6195, 'pnn5y', '2016-02-16 12:58:37', 't_mid.1455597356586:db6d0ddb7362c63a93', 'o', '4', 'rpsolis@uplbosa.org', 'You\'re welcome! If you need any more assistance, please do not hesitate to contact us. Thanks again!', '', '', ''),
-(6196, 'nqlwm', '2016-02-16 15:20:47', 't_mid.1453087420199:173068505f626f5354', 'i', '3', '', 'Good day, OSA! Is your website down at the moment? I\'m supposed to generate an SA form today. Are there any alternative means where I can generate such form? Thank you so much!', '', 'm_mid.1455607209047:b9e698ed6b87c7c781', '{"name":"Charlotte Hernandez","email":null,"fbuserid":"1578134124"}'),
+(6196, 'nqlwm', '2016-02-16 15:20:47', 't_mid.1453087420199:173068505f626f5354', 'i', '3', '', 'Good day, OSA! Is your website down at the moment? I\'m supposed to generate an SA form today. Are there any alternative means where I can generate such form? Thank you so much!', '4', 'm_mid.1455607209047:b9e698ed6b87c7c781', '{"name":"Charlotte Hernandez","email":null,"fbuserid":"1578134124"}'),
 (6197, 'nqlwm', '2016-02-16 15:27:13', 't_mid.1453087420199:173068505f626f5354', 'o', '4', 'rpsolis@uplbosa.org', 'Good Day Charlotte! The website (www.uplbosa.org) is working fine. But you can\'t login your SystemOne credentials at the moment since SystemOne is down. You can login to the website by logging in your UP Mail. Thanks!', '', '', ''),
 (6198, 'dx1c9', '2016-02-16 15:34:36', 't_mid.1453197915742:862ab25880352db161', 'i', '3', '', 'Good PM.  Thanks for the quick action, re: termination of Ms. Florentino so I can hire another one.   I have just interviewed someone today.\n\nI already accessed the org/hire link and created an item code.\n\nI also have informed DHUM/Dr. Fajutagana, re: termination one my one (1) lecturer assistant and the hiring of a replacement.\n\nMs. Charlotte Hernandez, the replacement, had also been informed to immediately process the necessary documents.\n\nThanks again.\n\nBini', '19', 'm_mid.1455608053935:e198c31da3997d7395', '{"name":"Bini Dizon","email":null,"fbuserid":"10208442796816721"}'),
 (6199, '178y3', '2016-02-16 17:46:25', 't_mid.1455615977255:b277a8e476c5f2bd55', 'i', '3', '', 'Hello. How can I access university clearance download po? I can\'t log in my account and Temporary ID isn\'t working', '4', 'm_mid.1455615977255:b277a8e476c5f2bd55', '{"name":"Jan Kathryn","email":null,"fbuserid":"1762706160"}'),
@@ -8236,7 +8236,7 @@ ALTER TABLE `inquiries` ADD FULLTEXT KEY `inquiry` (`inquiry`);
 -- AUTO_INCREMENT for table `inquiries`
 --
 ALTER TABLE `inquiries`
-  MODIFY `inquiryid` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12860;
+  MODIFY `inquiryid` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8131;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

@@ -12,12 +12,16 @@
 
 </head>
   <body>
-    R.A.N.A.
+    <ul>
+      <li><a id="saButton" class="waves-effect waves-light inquiryButton btn">SA</a></li>
+      <li><a id="slbButton" class="waves-effect waves-light inquiryButton btn">SLB</a></li>
+      <li><a id="closingButton" class="waves-effect waves-light inquiryButton btn">Closing</a></li>
+      <li><a id="testButton" class="waves-effect waves-light inquiryButton btn">Create Test Data</a></li>
+    </ul>
   <script src="<?php echo $RESOURCE . 'js/jquery.min.js'; ?>"></script>
   <script src="<?php echo $RESOURCE . 'js/jquery-ui.min.js'; ?>"></script>
   <script src="<?php echo $RESOURCE . 'js/materialize.js'; ?>"></script>
-  <script src="<?php echo $RESOURCE . 'js/init.js'; ?>"></script>
-  <script src="<?php echo $RESOURCE . 'js/index.js'; ?>"></script>
+  <script src="<?php echo $RESOURCE . 'js/rana.js'; ?>"></script>
   
 
   </body>

@@ -15,7 +15,7 @@ class PageController extends Controller{
 
 	function retrieveSLB(){
 
-		$features = array('sa','vacant', 'position', 'positions', 'apply', '3b', '3c', 'units', 'orientation', 'generate', 'DTR', 'student', 'assistant', 'assistantship', 'submit', 'late', 'salary', 'diff', 'differential', 'landbank', 'bank', 'account', 'atm', 'card', 'claiming', 'max', 'maximum', 'hours', 'midyear', 'canceled', 'work', 'sweldo', 'personal', 'opening', 'slots', 'payroll', 'underload', 'daily', 'time', 'record', 'appointment', 'reset', 'schedule', '5th', 'working', 'day', 'allowance', 'SLB', 'student', 'loan', 'board', 'deadline', 'application', 'form', 'flow', 'process', 'co-debtor', 'certification', 'scanned', 'photocopy', 'valid', 'id', '100%', 'graduate', 'remaining', 'balance', 'payment', 'transactions', 'due', 'date', 'installments', 'magkano', 'bayad', 'interest', 'computation', 'okay', 'ok', 'thank', 'you', 'very', 'much', 'so', 'maraming', 'salamat', 'thanks', 'more', 'power', 'god', 'bless', 'cash', 'loan', 'apply', 'emergency', 'access', 'osam', 'website', 'temporary', 'account', 'acc', 'acct', 'password', 'information', 'profile', 'clearance', 'number', 'update', 'registration', 'period', 'extended', 'extension', 'extend', 'online', 'enlistment', 'matriculation', 'fee', 'promissory', 'note', 'letter', 'checks', 'tuition', 'readmission', 'organization', 'org', 'adviser', 'recognition', 'recog', 'activity', 'permit', 'campus', 'tour', 'volunteer', 'scholarship', 'scholar', 'scholarship', 'offer', 'offered', 'iskolar', 'bayan', 'act', 'qualify');
+		$features = array('sa','vacant', 'position', 'positions', 'apply', '3b', '3c', 'units', 'orientation', 'generate', 'DTR', 'student', 'assistant', 'assistantship', 'submit', 'late', 'salary', 'diff', 'differential', 'landbank', 'bank', 'account', 'atm', 'card', 'claiming', 'max', 'maximum', 'hours', 'midyear', 'canceled', 'work', 'sweldo', 'personal', 'opening', 'slots', 'payroll', 'underload', 'daily', 'time', 'record', 'appointment', 'reset', 'schedule', '5th', 'working', 'day', 'allowance', 'SLB', 'student', 'loan', 'board', 'deadline', 'application', 'form', 'flow', 'process', 'co-debtor', 'certification', 'scanned', 'photocopy', 'valid', 'id', '100%', 'graduate', 'remaining', 'balance', 'payment', 'transactions', 'due', 'date', 'installments', 'magkano', 'bayad', 'interest', 'computation', 'okay', 'ok', 'thank', 'you', 'very', 'much', 'so', 'maraming', 'salamat', 'thanks', 'more', 'power', 'god', 'bless', 'cash', 'loan', 'apply', 'emergency', 'access', 'osam', 'website', 'temporary', 'account', 'acc', 'acct', 'password', 'information', 'profile', 'clearance', 'number', 'update', 'registration', 'period', 'extended', 'extension', 'extend', 'online', 'enlistment', 'matriculation', 'fee', 'promissory', 'note', 'letter', 'checks', 'tuition', 'readmission', 'organization', 'org', 'adviser', 'recognition', 'recog', 'activity', 'permit', 'campus', 'tour', 'volunteer', 'scholarship', 'scholar', 'scholarship', 'offer', 'offered', 'iskolar', 'bayan', 'act', 'qualify', 'sts', 'summer', 'scheduled', 'interview', 'appeal', 'pin', 'lost', 'results', 'refund', 'bracket', 'change', 'stipend', 'psychological', 'counseling', 'testing', 'psychologist', 'classes', 'suspended', 'today', 'academic', 'calendar', 'pasok', 'suspension', 'governor', 'memo', 'SAIS', 'upsais', 'courses', 'username', 'removals', 'removal', 'exam', 'exams', 'final', 'finals', 'mail', 'upmail', 'itc', 'our', 'exchange', 'programs', 'feb', 'fair', 'usc');
 
 		$collectionSLB = []; 
 		$collection = [];
@@ -186,7 +186,7 @@ class PageController extends Controller{
 
 	function retrieveSA(){
 
-		$features = array('sa','vacant', 'position', 'positions', 'apply', '3b', '3c', 'units', 'orientation', 'generate', 'DTR', 'student', 'assistant', 'assistantship', 'submit', 'late', 'salary', 'diff', 'differential', 'landbank', 'bank', 'account', 'atm', 'card', 'claiming', 'max', 'maximum', 'hours', 'midyear', 'canceled', 'work', 'sweldo', 'personal', 'opening', 'slots', 'payroll', 'underload', 'daily', 'time', 'record', 'appointment', 'reset', 'schedule', '5th', 'working', 'day', 'allowance', 'SLB', 'student', 'loan', 'board', 'deadline', 'application', 'form', 'flow', 'process', 'co-debtor', 'certification', 'scanned', 'photocopy', 'valid', 'id', '100%', 'graduate', 'remaining', 'balance', 'payment', 'transactions', 'due', 'date', 'installments', 'magkano', 'bayad', 'interest', 'computation', 'okay', 'ok', 'thank', 'you', 'very', 'much', 'so', 'maraming', 'salamat', 'thanks', 'more', 'power', 'god', 'bless', 'cash', 'loan', 'apply', 'emergency', 'access', 'osam', 'website', 'temporary', 'account', 'acc', 'acct', 'password', 'information', 'profile', 'clearance', 'number', 'update', 'registration', 'period', 'extended', 'extension', 'extend', 'online', 'enlistment', 'matriculation', 'fee', 'promissory', 'note', 'letter', 'checks', 'tuition', 'readmission', 'organization', 'org', 'adviser', 'recognition', 'recog', 'activity', 'permit', 'campus', 'tour', 'volunteer', 'scholarship', 'scholar', 'scholarship', 'offer', 'offered', 'iskolar', 'bayan', 'act', 'qualify');
+		$features = array('sa','vacant', 'position', 'positions', 'apply', '3b', '3c', 'units', 'orientation', 'generate', 'DTR', 'student', 'assistant', 'assistantship', 'submit', 'late', 'salary', 'diff', 'differential', 'landbank', 'bank', 'account', 'atm', 'card', 'claiming', 'max', 'maximum', 'hours', 'midyear', 'canceled', 'work', 'sweldo', 'personal', 'opening', 'slots', 'payroll', 'underload', 'daily', 'time', 'record', 'appointment', 'reset', 'schedule', '5th', 'working', 'day', 'allowance', 'SLB', 'student', 'loan', 'board', 'deadline', 'application', 'form', 'flow', 'process', 'co-debtor', 'certification', 'scanned', 'photocopy', 'valid', 'id', '100%', 'graduate', 'remaining', 'balance', 'payment', 'transactions', 'due', 'date', 'installments', 'magkano', 'bayad', 'interest', 'computation', 'okay', 'ok', 'thank', 'you', 'very', 'much', 'so', 'maraming', 'salamat', 'thanks', 'more', 'power', 'god', 'bless', 'cash', 'loan', 'apply', 'emergency', 'access', 'osam', 'website', 'temporary', 'account', 'acc', 'acct', 'password', 'information', 'profile', 'clearance', 'number', 'update', 'registration', 'period', 'extended', 'extension', 'extend', 'online', 'enlistment', 'matriculation', 'fee', 'promissory', 'note', 'letter', 'checks', 'tuition', 'readmission', 'organization', 'org', 'adviser', 'recognition', 'recog', 'activity', 'permit', 'campus', 'tour', 'volunteer', 'scholarship', 'scholar', 'scholarship', 'offer', 'offered', 'iskolar', 'bayan', 'act', 'qualify', 'sts', 'summer', 'scheduled', 'interview', 'appeal', 'pin', 'lost', 'results', 'refund', 'bracket', 'change', 'stipend', 'psychological', 'counseling', 'testing', 'psychologist', 'classes', 'suspended', 'today', 'academic', 'calendar', 'pasok', 'suspension', 'governor', 'memo', 'SAIS', 'upsais', 'courses', 'username', 'removals', 'removal', 'exam', 'exams', 'final', 'finals', 'mail', 'upmail', 'itc', 'our', 'exchange', 'programs', 'feb', 'fair', 'usc');
 
 		$collectionSA = []; 
 		$collection = [];
@@ -358,7 +358,7 @@ class PageController extends Controller{
 
 	function retrieveClosing(){
 
-		$features = array('sa','vacant', 'position', 'positions', 'apply', '3b', '3c', 'units', 'orientation', 'generate', 'DTR', 'student', 'assistant', 'assistantship', 'submit', 'late', 'salary', 'diff', 'differential', 'landbank', 'bank', 'account', 'atm', 'card', 'claiming', 'max', 'maximum', 'hours', 'midyear', 'canceled', 'work', 'sweldo', 'personal', 'opening', 'slots', 'payroll', 'underload', 'daily', 'time', 'record', 'appointment', 'reset', 'schedule', '5th', 'working', 'day', 'allowance', 'SLB', 'student', 'loan', 'board', 'deadline', 'application', 'form', 'flow', 'process', 'co-debtor', 'certification', 'scanned', 'photocopy', 'valid', 'id', '100%', 'graduate', 'remaining', 'balance', 'payment', 'transactions', 'due', 'date', 'installments', 'magkano', 'bayad', 'interest', 'computation', 'okay', 'ok', 'thank', 'you', 'very', 'much', 'so', 'maraming', 'salamat', 'thanks', 'more', 'power', 'god', 'bless', 'cash', 'loan', 'apply', 'emergency', 'access', 'osam', 'website', 'temporary', 'account', 'acc', 'acct', 'password', 'information', 'profile', 'clearance', 'number', 'update', 'registration', 'period', 'extended', 'extension', 'extend', 'online', 'enlistment', 'matriculation', 'fee', 'promissory', 'note', 'letter', 'checks', 'tuition', 'readmission', 'organization', 'org', 'adviser', 'recognition', 'recog', 'activity', 'permit', 'campus', 'tour', 'volunteer', 'scholarship', 'scholar', 'scholarship', 'offer', 'offered', 'iskolar', 'bayan', 'act', 'qualify');
+		$features = array('sa','vacant', 'position', 'positions', 'apply', '3b', '3c', 'units', 'orientation', 'generate', 'DTR', 'student', 'assistant', 'assistantship', 'submit', 'late', 'salary', 'diff', 'differential', 'landbank', 'bank', 'account', 'atm', 'card', 'claiming', 'max', 'maximum', 'hours', 'midyear', 'canceled', 'work', 'sweldo', 'personal', 'opening', 'slots', 'payroll', 'underload', 'daily', 'time', 'record', 'appointment', 'reset', 'schedule', '5th', 'working', 'day', 'allowance', 'SLB', 'student', 'loan', 'board', 'deadline', 'application', 'form', 'flow', 'process', 'co-debtor', 'certification', 'scanned', 'photocopy', 'valid', 'id', '100%', 'graduate', 'remaining', 'balance', 'payment', 'transactions', 'due', 'date', 'installments', 'magkano', 'bayad', 'interest', 'computation', 'okay', 'ok', 'thank', 'you', 'very', 'much', 'so', 'maraming', 'salamat', 'thanks', 'more', 'power', 'god', 'bless', 'cash', 'loan', 'apply', 'emergency', 'access', 'osam', 'website', 'temporary', 'account', 'acc', 'acct', 'password', 'information', 'profile', 'clearance', 'number', 'update', 'registration', 'period', 'extended', 'extension', 'extend', 'online', 'enlistment', 'matriculation', 'fee', 'promissory', 'note', 'letter', 'checks', 'tuition', 'readmission', 'organization', 'org', 'adviser', 'recognition', 'recog', 'activity', 'permit', 'campus', 'tour', 'volunteer', 'scholarship', 'scholar', 'scholarship', 'offer', 'offered', 'iskolar', 'bayan', 'act', 'qualify', 'sts', 'summer', 'scheduled', 'interview', 'appeal', 'pin', 'lost', 'results', 'refund', 'bracket', 'change', 'stipend', 'psychological', 'counseling', 'testing', 'psychologist', 'classes', 'suspended', 'today', 'academic', 'calendar', 'pasok', 'suspension', 'governor', 'memo', 'SAIS', 'upsais', 'courses', 'username', 'removals', 'removal', 'exam', 'exams', 'final', 'finals', 'mail', 'upmail', 'itc', 'our', 'exchange', 'programs', 'feb', 'fair', 'usc');
 
 		$collectionClosing = []; 
 		$collection = [];
@@ -529,7 +529,7 @@ class PageController extends Controller{
 
 	function retrieveCashLoan(){
 
-		$features = array('sa','vacant', 'position', 'positions', 'apply', '3b', '3c', 'units', 'orientation', 'generate', 'DTR', 'student', 'assistant', 'assistantship', 'submit', 'late', 'salary', 'diff', 'differential', 'landbank', 'bank', 'account', 'atm', 'card', 'claiming', 'max', 'maximum', 'hours', 'midyear', 'canceled', 'work', 'sweldo', 'personal', 'opening', 'slots', 'payroll', 'underload', 'daily', 'time', 'record', 'appointment', 'reset', 'schedule', '5th', 'working', 'day', 'allowance', 'SLB', 'student', 'loan', 'board', 'deadline', 'application', 'form', 'flow', 'process', 'co-debtor', 'certification', 'scanned', 'photocopy', 'valid', 'id', '100%', 'graduate', 'remaining', 'balance', 'payment', 'transactions', 'due', 'date', 'installments', 'magkano', 'bayad', 'interest', 'computation', 'okay', 'ok', 'thank', 'you', 'very', 'much', 'so', 'maraming', 'salamat', 'thanks', 'more', 'power', 'god', 'bless', 'cash', 'loan', 'apply', 'emergency', 'access', 'osam', 'website', 'temporary', 'account', 'acc', 'acct', 'password', 'information', 'profile', 'clearance', 'number', 'update', 'registration', 'period', 'extended', 'extension', 'extend', 'online', 'enlistment', 'matriculation', 'fee', 'promissory', 'note', 'letter', 'checks', 'tuition', 'readmission', 'organization', 'org', 'adviser', 'recognition', 'recog', 'activity', 'permit', 'campus', 'tour', 'volunteer', 'scholarship', 'scholar', 'scholarship', 'offer', 'offered', 'iskolar', 'bayan', 'act', 'qualify');
+		$features = array('sa','vacant', 'position', 'positions', 'apply', '3b', '3c', 'units', 'orientation', 'generate', 'DTR', 'student', 'assistant', 'assistantship', 'submit', 'late', 'salary', 'diff', 'differential', 'landbank', 'bank', 'account', 'atm', 'card', 'claiming', 'max', 'maximum', 'hours', 'midyear', 'canceled', 'work', 'sweldo', 'personal', 'opening', 'slots', 'payroll', 'underload', 'daily', 'time', 'record', 'appointment', 'reset', 'schedule', '5th', 'working', 'day', 'allowance', 'SLB', 'student', 'loan', 'board', 'deadline', 'application', 'form', 'flow', 'process', 'co-debtor', 'certification', 'scanned', 'photocopy', 'valid', 'id', '100%', 'graduate', 'remaining', 'balance', 'payment', 'transactions', 'due', 'date', 'installments', 'magkano', 'bayad', 'interest', 'computation', 'okay', 'ok', 'thank', 'you', 'very', 'much', 'so', 'maraming', 'salamat', 'thanks', 'more', 'power', 'god', 'bless', 'cash', 'loan', 'apply', 'emergency', 'access', 'osam', 'website', 'temporary', 'account', 'acc', 'acct', 'password', 'information', 'profile', 'clearance', 'number', 'update', 'registration', 'period', 'extended', 'extension', 'extend', 'online', 'enlistment', 'matriculation', 'fee', 'promissory', 'note', 'letter', 'checks', 'tuition', 'readmission', 'organization', 'org', 'adviser', 'recognition', 'recog', 'activity', 'permit', 'campus', 'tour', 'volunteer', 'scholarship', 'scholar', 'scholarship', 'offer', 'offered', 'iskolar', 'bayan', 'act', 'qualify', 'sts', 'summer', 'scheduled', 'interview', 'appeal', 'pin', 'lost', 'results', 'refund', 'bracket', 'change', 'stipend', 'psychological', 'counseling', 'testing', 'psychologist', 'classes', 'suspended', 'today', 'academic', 'calendar', 'pasok', 'suspension', 'governor', 'memo', 'SAIS', 'upsais', 'courses', 'username', 'removals', 'removal', 'exam', 'exams', 'final', 'finals', 'mail', 'upmail', 'itc', 'our', 'exchange', 'programs', 'feb', 'fair', 'usc');
 
 		$collectionCashLoan = []; 
 		$collection = [];
@@ -700,7 +700,7 @@ class PageController extends Controller{
 
 	function retrieveOSAM(){
 
-		$features = array('sa','vacant', 'position', 'positions', 'apply', '3b', '3c', 'units', 'orientation', 'generate', 'DTR', 'student', 'assistant', 'assistantship', 'submit', 'late', 'salary', 'diff', 'differential', 'landbank', 'bank', 'account', 'atm', 'card', 'claiming', 'max', 'maximum', 'hours', 'midyear', 'canceled', 'work', 'sweldo', 'personal', 'opening', 'slots', 'payroll', 'underload', 'daily', 'time', 'record', 'appointment', 'reset', 'schedule', '5th', 'working', 'day', 'allowance', 'SLB', 'student', 'loan', 'board', 'deadline', 'application', 'form', 'flow', 'process', 'co-debtor', 'certification', 'scanned', 'photocopy', 'valid', 'id', '100%', 'graduate', 'remaining', 'balance', 'payment', 'transactions', 'due', 'date', 'installments', 'magkano', 'bayad', 'interest', 'computation', 'okay', 'ok', 'thank', 'you', 'very', 'much', 'so', 'maraming', 'salamat', 'thanks', 'more', 'power', 'god', 'bless', 'cash', 'loan', 'apply', 'emergency', 'access', 'osam', 'website', 'temporary', 'account', 'acc', 'acct', 'password', 'information', 'profile', 'clearance', 'number', 'update', 'registration', 'period', 'extended', 'extension', 'extend', 'online', 'enlistment', 'matriculation', 'fee', 'promissory', 'note', 'letter', 'checks', 'tuition', 'readmission', 'organization', 'org', 'adviser', 'recognition', 'recog', 'activity', 'permit', 'campus', 'tour', 'volunteer', 'scholarship', 'scholar', 'scholarship', 'offer', 'offered', 'iskolar', 'bayan', 'act', 'qualify');
+		$features = array('sa','vacant', 'position', 'positions', 'apply', '3b', '3c', 'units', 'orientation', 'generate', 'DTR', 'student', 'assistant', 'assistantship', 'submit', 'late', 'salary', 'diff', 'differential', 'landbank', 'bank', 'account', 'atm', 'card', 'claiming', 'max', 'maximum', 'hours', 'midyear', 'canceled', 'work', 'sweldo', 'personal', 'opening', 'slots', 'payroll', 'underload', 'daily', 'time', 'record', 'appointment', 'reset', 'schedule', '5th', 'working', 'day', 'allowance', 'SLB', 'student', 'loan', 'board', 'deadline', 'application', 'form', 'flow', 'process', 'co-debtor', 'certification', 'scanned', 'photocopy', 'valid', 'id', '100%', 'graduate', 'remaining', 'balance', 'payment', 'transactions', 'due', 'date', 'installments', 'magkano', 'bayad', 'interest', 'computation', 'okay', 'ok', 'thank', 'you', 'very', 'much', 'so', 'maraming', 'salamat', 'thanks', 'more', 'power', 'god', 'bless', 'cash', 'loan', 'apply', 'emergency', 'access', 'osam', 'website', 'temporary', 'account', 'acc', 'acct', 'password', 'information', 'profile', 'clearance', 'number', 'update', 'registration', 'period', 'extended', 'extension', 'extend', 'online', 'enlistment', 'matriculation', 'fee', 'promissory', 'note', 'letter', 'checks', 'tuition', 'readmission', 'organization', 'org', 'adviser', 'recognition', 'recog', 'activity', 'permit', 'campus', 'tour', 'volunteer', 'scholarship', 'scholar', 'scholarship', 'offer', 'offered', 'iskolar', 'bayan', 'act', 'qualify', 'sts', 'summer', 'scheduled', 'interview', 'appeal', 'pin', 'lost', 'results', 'refund', 'bracket', 'change', 'stipend', 'psychological', 'counseling', 'testing', 'psychologist', 'classes', 'suspended', 'today', 'academic', 'calendar', 'pasok', 'suspension', 'governor', 'memo', 'SAIS', 'upsais', 'courses', 'username', 'removals', 'removal', 'exam', 'exams', 'final', 'finals', 'mail', 'upmail', 'itc', 'our', 'exchange', 'programs', 'feb', 'fair', 'usc');
 
 		$collectionOSAM = []; 
 		$collection = [];
@@ -871,7 +871,7 @@ class PageController extends Controller{
 
 	function retrieveRegistration(){
 
-		$features = array('sa','vacant', 'position', 'positions', 'apply', '3b', '3c', 'units', 'orientation', 'generate', 'DTR', 'student', 'assistant', 'assistantship', 'submit', 'late', 'salary', 'diff', 'differential', 'landbank', 'bank', 'account', 'atm', 'card', 'claiming', 'max', 'maximum', 'hours', 'midyear', 'canceled', 'work', 'sweldo', 'personal', 'opening', 'slots', 'payroll', 'underload', 'daily', 'time', 'record', 'appointment', 'reset', 'schedule', '5th', 'working', 'day', 'allowance', 'SLB', 'student', 'loan', 'board', 'deadline', 'application', 'form', 'flow', 'process', 'co-debtor', 'certification', 'scanned', 'photocopy', 'valid', 'id', '100%', 'graduate', 'remaining', 'balance', 'payment', 'transactions', 'due', 'date', 'installments', 'magkano', 'bayad', 'interest', 'computation', 'okay', 'ok', 'thank', 'you', 'very', 'much', 'so', 'maraming', 'salamat', 'thanks', 'more', 'power', 'god', 'bless', 'cash', 'loan', 'apply', 'emergency', 'access', 'osam', 'website', 'temporary', 'account', 'acc', 'acct', 'password', 'information', 'profile', 'clearance', 'number', 'update', 'registration', 'period', 'extended', 'extension', 'extend', 'online', 'enlistment', 'matriculation', 'fee', 'promissory', 'note', 'letter', 'checks', 'tuition', 'readmission', 'organization', 'org', 'adviser', 'recognition', 'recog', 'activity', 'permit', 'campus', 'tour', 'volunteer', 'scholarship', 'scholar', 'scholarship', 'offer', 'offered', 'iskolar', 'bayan', 'act', 'qualify');
+		$features = array('sa','vacant', 'position', 'positions', 'apply', '3b', '3c', 'units', 'orientation', 'generate', 'DTR', 'student', 'assistant', 'assistantship', 'submit', 'late', 'salary', 'diff', 'differential', 'landbank', 'bank', 'account', 'atm', 'card', 'claiming', 'max', 'maximum', 'hours', 'midyear', 'canceled', 'work', 'sweldo', 'personal', 'opening', 'slots', 'payroll', 'underload', 'daily', 'time', 'record', 'appointment', 'reset', 'schedule', '5th', 'working', 'day', 'allowance', 'SLB', 'student', 'loan', 'board', 'deadline', 'application', 'form', 'flow', 'process', 'co-debtor', 'certification', 'scanned', 'photocopy', 'valid', 'id', '100%', 'graduate', 'remaining', 'balance', 'payment', 'transactions', 'due', 'date', 'installments', 'magkano', 'bayad', 'interest', 'computation', 'okay', 'ok', 'thank', 'you', 'very', 'much', 'so', 'maraming', 'salamat', 'thanks', 'more', 'power', 'god', 'bless', 'cash', 'loan', 'apply', 'emergency', 'access', 'osam', 'website', 'temporary', 'account', 'acc', 'acct', 'password', 'information', 'profile', 'clearance', 'number', 'update', 'registration', 'period', 'extended', 'extension', 'extend', 'online', 'enlistment', 'matriculation', 'fee', 'promissory', 'note', 'letter', 'checks', 'tuition', 'readmission', 'organization', 'org', 'adviser', 'recognition', 'recog', 'activity', 'permit', 'campus', 'tour', 'volunteer', 'scholarship', 'scholar', 'scholarship', 'offer', 'offered', 'iskolar', 'bayan', 'act', 'qualify', 'sts', 'summer', 'scheduled', 'interview', 'appeal', 'pin', 'lost', 'results', 'refund', 'bracket', 'change', 'stipend', 'psychological', 'counseling', 'testing', 'psychologist', 'classes', 'suspended', 'today', 'academic', 'calendar', 'pasok', 'suspension', 'governor', 'memo', 'SAIS', 'upsais', 'courses', 'username', 'removals', 'removal', 'exam', 'exams', 'final', 'finals', 'mail', 'upmail', 'itc', 'our', 'exchange', 'programs', 'feb', 'fair', 'usc');
 
 		$collectionRegistration = []; 
 		$collection = [];
@@ -1042,7 +1042,7 @@ class PageController extends Controller{
 
 	function retrieveStudentActivity(){
 
-		$features = array('sa','vacant', 'position', 'positions', 'apply', '3b', '3c', 'units', 'orientation', 'generate', 'DTR', 'student', 'assistant', 'assistantship', 'submit', 'late', 'salary', 'diff', 'differential', 'landbank', 'bank', 'account', 'atm', 'card', 'claiming', 'max', 'maximum', 'hours', 'midyear', 'canceled', 'work', 'sweldo', 'personal', 'opening', 'slots', 'payroll', 'underload', 'daily', 'time', 'record', 'appointment', 'reset', 'schedule', '5th', 'working', 'day', 'allowance', 'SLB', 'student', 'loan', 'board', 'deadline', 'application', 'form', 'flow', 'process', 'co-debtor', 'certification', 'scanned', 'photocopy', 'valid', 'id', '100%', 'graduate', 'remaining', 'balance', 'payment', 'transactions', 'due', 'date', 'installments', 'magkano', 'bayad', 'interest', 'computation', 'okay', 'ok', 'thank', 'you', 'very', 'much', 'so', 'maraming', 'salamat', 'thanks', 'more', 'power', 'god', 'bless', 'cash', 'loan', 'apply', 'emergency', 'access', 'osam', 'website', 'temporary', 'account', 'acc', 'acct', 'password', 'information', 'profile', 'clearance', 'number', 'update', 'registration', 'period', 'extended', 'extension', 'extend', 'online', 'enlistment', 'matriculation', 'fee', 'promissory', 'note', 'letter', 'checks', 'tuition', 'readmission', 'organization', 'org', 'adviser', 'recognition', 'recog', 'activity', 'permit', 'campus', 'tour', 'volunteer', 'scholarship', 'scholar', 'scholarship', 'offer', 'offered', 'iskolar', 'bayan', 'act', 'qualify');
+		$features = array('sa','vacant', 'position', 'positions', 'apply', '3b', '3c', 'units', 'orientation', 'generate', 'DTR', 'student', 'assistant', 'assistantship', 'submit', 'late', 'salary', 'diff', 'differential', 'landbank', 'bank', 'account', 'atm', 'card', 'claiming', 'max', 'maximum', 'hours', 'midyear', 'canceled', 'work', 'sweldo', 'personal', 'opening', 'slots', 'payroll', 'underload', 'daily', 'time', 'record', 'appointment', 'reset', 'schedule', '5th', 'working', 'day', 'allowance', 'SLB', 'student', 'loan', 'board', 'deadline', 'application', 'form', 'flow', 'process', 'co-debtor', 'certification', 'scanned', 'photocopy', 'valid', 'id', '100%', 'graduate', 'remaining', 'balance', 'payment', 'transactions', 'due', 'date', 'installments', 'magkano', 'bayad', 'interest', 'computation', 'okay', 'ok', 'thank', 'you', 'very', 'much', 'so', 'maraming', 'salamat', 'thanks', 'more', 'power', 'god', 'bless', 'cash', 'loan', 'apply', 'emergency', 'access', 'osam', 'website', 'temporary', 'account', 'acc', 'acct', 'password', 'information', 'profile', 'clearance', 'number', 'update', 'registration', 'period', 'extended', 'extension', 'extend', 'online', 'enlistment', 'matriculation', 'fee', 'promissory', 'note', 'letter', 'checks', 'tuition', 'readmission', 'organization', 'org', 'adviser', 'recognition', 'recog', 'activity', 'permit', 'campus', 'tour', 'volunteer', 'scholarship', 'scholar', 'scholarship', 'offer', 'offered', 'iskolar', 'bayan', 'act', 'qualify', 'sts', 'summer', 'scheduled', 'interview', 'appeal', 'pin', 'lost', 'results', 'refund', 'bracket', 'change', 'stipend', 'psychological', 'counseling', 'testing', 'psychologist', 'classes', 'suspended', 'today', 'academic', 'calendar', 'pasok', 'suspension', 'governor', 'memo', 'SAIS', 'upsais', 'courses', 'username', 'removals', 'removal', 'exam', 'exams', 'final', 'finals', 'mail', 'upmail', 'itc', 'our', 'exchange', 'programs', 'feb', 'fair', 'usc');
 
 		$collectionActivity = []; 
 		$collection = [];
@@ -1213,7 +1213,7 @@ class PageController extends Controller{
 
 	function retrieveScholarship(){
 
-		$features = array('sa','vacant', 'position', 'positions', 'apply', '3b', '3c', 'units', 'orientation', 'generate', 'DTR', 'student', 'assistant', 'assistantship', 'submit', 'late', 'salary', 'diff', 'differential', 'landbank', 'bank', 'account', 'atm', 'card', 'claiming', 'max', 'maximum', 'hours', 'midyear', 'canceled', 'work', 'sweldo', 'personal', 'opening', 'slots', 'payroll', 'underload', 'daily', 'time', 'record', 'appointment', 'reset', 'schedule', '5th', 'working', 'day', 'allowance', 'SLB', 'student', 'loan', 'board', 'deadline', 'application', 'form', 'flow', 'process', 'co-debtor', 'certification', 'scanned', 'photocopy', 'valid', 'id', '100%', 'graduate', 'remaining', 'balance', 'payment', 'transactions', 'due', 'date', 'installments', 'magkano', 'bayad', 'interest', 'computation', 'okay', 'ok', 'thank', 'you', 'very', 'much', 'so', 'maraming', 'salamat', 'thanks', 'more', 'power', 'god', 'bless', 'cash', 'loan', 'apply', 'emergency', 'access', 'osam', 'website', 'temporary', 'account', 'acc', 'acct', 'password', 'information', 'profile', 'clearance', 'number', 'update', 'registration', 'period', 'extended', 'extension', 'extend', 'online', 'enlistment', 'matriculation', 'fee', 'promissory', 'note', 'letter', 'checks', 'tuition', 'readmission', 'organization', 'org', 'adviser', 'recognition', 'recog', 'activity', 'permit', 'campus', 'tour', 'volunteer', 'scholarship', 'scholar', 'scholarship', 'offer', 'offered', 'iskolar', 'bayan', 'act', 'qualify');
+		$features = array('sa','vacant', 'position', 'positions', 'apply', '3b', '3c', 'units', 'orientation', 'generate', 'DTR', 'student', 'assistant', 'assistantship', 'submit', 'late', 'salary', 'diff', 'differential', 'landbank', 'bank', 'account', 'atm', 'card', 'claiming', 'max', 'maximum', 'hours', 'midyear', 'canceled', 'work', 'sweldo', 'personal', 'opening', 'slots', 'payroll', 'underload', 'daily', 'time', 'record', 'appointment', 'reset', 'schedule', '5th', 'working', 'day', 'allowance', 'SLB', 'student', 'loan', 'board', 'deadline', 'application', 'form', 'flow', 'process', 'co-debtor', 'certification', 'scanned', 'photocopy', 'valid', 'id', '100%', 'graduate', 'remaining', 'balance', 'payment', 'transactions', 'due', 'date', 'installments', 'magkano', 'bayad', 'interest', 'computation', 'okay', 'ok', 'thank', 'you', 'very', 'much', 'so', 'maraming', 'salamat', 'thanks', 'more', 'power', 'god', 'bless', 'cash', 'loan', 'apply', 'emergency', 'access', 'osam', 'website', 'temporary', 'account', 'acc', 'acct', 'password', 'information', 'profile', 'clearance', 'number', 'update', 'registration', 'period', 'extended', 'extension', 'extend', 'online', 'enlistment', 'matriculation', 'fee', 'promissory', 'note', 'letter', 'checks', 'tuition', 'readmission', 'organization', 'org', 'adviser', 'recognition', 'recog', 'activity', 'permit', 'campus', 'tour', 'volunteer', 'scholarship', 'scholar', 'scholarship', 'offer', 'offered', 'iskolar', 'bayan', 'act', 'qualify', 'sts', 'summer', 'scheduled', 'interview', 'appeal', 'pin', 'lost', 'results', 'refund', 'bracket', 'change', 'stipend', 'psychological', 'counseling', 'testing', 'psychologist', 'classes', 'suspended', 'today', 'academic', 'calendar', 'pasok', 'suspension', 'governor', 'memo', 'SAIS', 'upsais', 'courses', 'username', 'removals', 'removal', 'exam', 'exams', 'final', 'finals', 'mail', 'upmail', 'itc', 'our', 'exchange', 'programs', 'feb', 'fair', 'usc');
 
 		$collectionScholarship = []; 
 		$collection = [];
@@ -1382,9 +1382,1036 @@ class PageController extends Controller{
 		echo json_encode("Scholarship Done.");	
 	}
 
+	function retrieveSTS(){
+
+		$features = array('sa','vacant', 'position', 'positions', 'apply', '3b', '3c', 'units', 'orientation', 'generate', 'DTR', 'student', 'assistant', 'assistantship', 'submit', 'late', 'salary', 'diff', 'differential', 'landbank', 'bank', 'account', 'atm', 'card', 'claiming', 'max', 'maximum', 'hours', 'midyear', 'canceled', 'work', 'sweldo', 'personal', 'opening', 'slots', 'payroll', 'underload', 'daily', 'time', 'record', 'appointment', 'reset', 'schedule', '5th', 'working', 'day', 'allowance', 'SLB', 'student', 'loan', 'board', 'deadline', 'application', 'form', 'flow', 'process', 'co-debtor', 'certification', 'scanned', 'photocopy', 'valid', 'id', '100%', 'graduate', 'remaining', 'balance', 'payment', 'transactions', 'due', 'date', 'installments', 'magkano', 'bayad', 'interest', 'computation', 'okay', 'ok', 'thank', 'you', 'very', 'much', 'so', 'maraming', 'salamat', 'thanks', 'more', 'power', 'god', 'bless', 'cash', 'loan', 'apply', 'emergency', 'access', 'osam', 'website', 'temporary', 'account', 'acc', 'acct', 'password', 'information', 'profile', 'clearance', 'number', 'update', 'registration', 'period', 'extended', 'extension', 'extend', 'online', 'enlistment', 'matriculation', 'fee', 'promissory', 'note', 'letter', 'checks', 'tuition', 'readmission', 'organization', 'org', 'adviser', 'recognition', 'recog', 'activity', 'permit', 'campus', 'tour', 'volunteer', 'scholarship', 'scholar', 'scholarship', 'offer', 'offered', 'iskolar', 'bayan', 'act', 'qualify', 'sts', 'summer', 'scheduled', 'interview', 'appeal', 'pin', 'lost', 'results', 'refund', 'bracket', 'change', 'stipend', 'psychological', 'counseling', 'testing', 'psychologist', 'classes', 'suspended', 'today', 'academic', 'calendar', 'pasok', 'suspension', 'governor', 'memo', 'SAIS', 'upsais', 'courses', 'username', 'removals', 'removal', 'exam', 'exams', 'final', 'finals', 'mail', 'upmail', 'itc', 'our', 'exchange', 'programs', 'feb', 'fair', 'usc');
+
+		$collectionSTS = []; 
+		$collection = [];
+
+		$count = 0;
+
+		$im = new InquiriesMapper($this->db);
+		
+		$im->load();
+
+		while(!$im->dry()){
+
+			if($im->category == 8){
+			
+				$count++;
+				$inquiry = $im->inquiry;
+				array_push($collectionSTS, $inquiry);
+				$im->next();
+			
+			}else if($im->category != 13 || $im->category != 19){
+				
+				$count++;
+				$inquiry = $im->inquiry;
+				array_push($collection, $inquiry);
+				$im->next();
+			
+			}
+		
+			$im->next();
+
+		}
+
+		$collectionSTS = array_map('strtolower', $collectionSTS);
+		$collection = array_map('strtolower', $collection);
+		$features = array_map('strtolower', $features);
+
+		foreach ($collectionSTS as $key => $value){
+		   $collectionSTS[$key]  = str_replace(array("?", "!", ",", ";", "<", ">", ".", "(", ")"), "", $value);
+		}
+
+		foreach ($collection as $key => $value){
+		   $collection[$key]  = str_replace(array("?", "!", ",", ";", "<", ">", ".", "(", ")"), "", $value);
+		}
+
+		$myfile = fopen("STS.train", "w");
+		$index = 1;
+		$trigger = 0;
+		
+		foreach ($collectionSTS as $string) {
+
+		    foreach($features as $feature){
+		    	
+		    	$reg = "~\b".$feature."\b~";
+		    	if (preg_match($reg,$string)){
+
+		    		$tf1 = substr_count($string, $feature);
+		    		$tf2 = str_word_count($string);
+		    		
+		    		if($tf2 != 0){
+		    			$tf = $tf1/$tf2;
+		    		}else{
+		    			$tf = 0;
+		    		}
+
+		    		$idf1 = $count;
+					$idf2 = 0;
+		    		
+		    		foreach($collectionSTS as $str1){
+		    			$idf2 = $idf2 + substr_count($str1, $feature);
+		    		}
+
+		    		foreach($collection as $str1){
+		    			$idf2 = $idf2 + substr_count($str1, $feature);
+		    		}
+
+		    		if($idf2 != 0){
+		    			$idf = log($idf1/$idf2);
+		    		}else{
+		    			$idf = 0;
+		    		}
+
+		    		$tfidf = $tf * $idf;
+
+		    		if($tfidf != 0){
+		    			if($trigger == 0){
+			    			$trigger = 1;
+		    				$txt = "+1 " . $index . ":" . $tfidf . " ";
+		    			}else{
+		    				$txt = $index . ":" . $tfidf . " ";
+		    			}
+		    			fwrite($myfile, $txt);
+		    		}
+
+		    	}
+		    	
+		    	$index++;
+		    
+		    }
+		    if(!$trigger == 0){
+				fwrite($myfile, "\r\n");
+			}
+			$index = 1;
+			$trigger = 0;
+		}
+
+		foreach ($collection as $string) {
+		    
+		    foreach($features as $feature){
+		    	
+		    	$reg = "~\b".$feature."\b~";
+		    	if (preg_match($reg,$string)){
+		    		
+		    		$tf1 = substr_count($string, $feature);
+		    		$tf2 = str_word_count($string);
+		    		
+		    		if($tf2 != 0){
+		    			$tf = $tf1/$tf2;
+		    		}else{
+		    			$tf = 0;
+		    		}
+
+		    		$idf1 = $count;
+					$idf2 = 0;
+		    		
+		    		foreach($collectionSTS as $str1){
+		    			$idf2 = $idf2 + substr_count($str1, $feature);
+		    		}
+
+		    		foreach($collection as $str1){
+		    			$idf2 = $idf2 + substr_count($str1, $feature);
+		    		}
+
+		    		if($idf2 != 0){
+		    			$idf = log($idf1/$idf2);
+		    		}else{
+		    			$idf = 0;
+		    		}
+
+		    		$tfidf = $tf * $idf;
+
+		    		if($tfidf != 0){
+		    			if($trigger == 0){
+			    			$trigger = 1;
+		    				$txt = "-1 " . $index . ":" . $tfidf . " ";
+		    			}else{
+		    				$txt = $index . ":" . $tfidf . " ";
+		    			}
+		    			fwrite($myfile, $txt);
+		    		}
+
+		    	}
+		    	
+		    	$index++;
+		    
+		    }
+			if(!$trigger == 0){
+				fwrite($myfile, "\r\n");
+			}
+			$index = 1;
+			$trigger = 0;
+		
+		}
+
+		fclose($myfile);
+	
+		echo json_encode("STS Done.");	
+	}
+
+	function retrieveCounsel(){
+
+		$features = array('sa','vacant', 'position', 'positions', 'apply', '3b', '3c', 'units', 'orientation', 'generate', 'DTR', 'student', 'assistant', 'assistantship', 'submit', 'late', 'salary', 'diff', 'differential', 'landbank', 'bank', 'account', 'atm', 'card', 'claiming', 'max', 'maximum', 'hours', 'midyear', 'canceled', 'work', 'sweldo', 'personal', 'opening', 'slots', 'payroll', 'underload', 'daily', 'time', 'record', 'appointment', 'reset', 'schedule', '5th', 'working', 'day', 'allowance', 'SLB', 'student', 'loan', 'board', 'deadline', 'application', 'form', 'flow', 'process', 'co-debtor', 'certification', 'scanned', 'photocopy', 'valid', 'id', '100%', 'graduate', 'remaining', 'balance', 'payment', 'transactions', 'due', 'date', 'installments', 'magkano', 'bayad', 'interest', 'computation', 'okay', 'ok', 'thank', 'you', 'very', 'much', 'so', 'maraming', 'salamat', 'thanks', 'more', 'power', 'god', 'bless', 'cash', 'loan', 'apply', 'emergency', 'access', 'osam', 'website', 'temporary', 'account', 'acc', 'acct', 'password', 'information', 'profile', 'clearance', 'number', 'update', 'registration', 'period', 'extended', 'extension', 'extend', 'online', 'enlistment', 'matriculation', 'fee', 'promissory', 'note', 'letter', 'checks', 'tuition', 'readmission', 'organization', 'org', 'adviser', 'recognition', 'recog', 'activity', 'permit', 'campus', 'tour', 'volunteer', 'scholarship', 'scholar', 'scholarship', 'offer', 'offered', 'iskolar', 'bayan', 'act', 'qualify', 'sts', 'summer', 'scheduled', 'interview', 'appeal', 'pin', 'lost', 'results', 'refund', 'bracket', 'change', 'stipend', 'psychological', 'counseling', 'testing', 'psychologist', 'classes', 'suspended', 'today', 'academic', 'calendar', 'pasok', 'suspension', 'governor', 'memo', 'SAIS', 'upsais', 'courses', 'username', 'removals', 'removal', 'exam', 'exams', 'final', 'finals', 'mail', 'upmail', 'itc', 'our', 'exchange', 'programs', 'feb', 'fair', 'usc');
+
+		$collectionCounsel = []; 
+		$collection = [];
+
+		$count = 0;
+
+		$im = new InquiriesMapper($this->db);
+		
+		$im->load();
+
+		while(!$im->dry()){
+
+			if($im->category == 9){
+			
+				$count++;
+				$inquiry = $im->inquiry;
+				array_push($collectionCounsel, $inquiry);
+				$im->next();
+			
+			}else if($im->category != 13 || $im->category != 19){
+				
+				$count++;
+				$inquiry = $im->inquiry;
+				array_push($collection, $inquiry);
+				$im->next();
+			
+			}
+		
+			$im->next();
+
+		}
+
+		$collectionCounsel = array_map('strtolower', $collectionCounsel);
+		$collection = array_map('strtolower', $collection);
+		$features = array_map('strtolower', $features);
+
+		foreach ($collectionCounsel as $key => $value){
+		   $collectionCounsel[$key]  = str_replace(array("?", "!", ",", ";", "<", ">", ".", "(", ")"), "", $value);
+		}
+
+		foreach ($collection as $key => $value){
+		   $collection[$key]  = str_replace(array("?", "!", ",", ";", "<", ">", ".", "(", ")"), "", $value);
+		}
+
+		$myfile = fopen("Counsel.train", "w");
+		$index = 1;
+		$trigger = 0;
+		
+		foreach ($collectionCounsel as $string) {
+
+		    foreach($features as $feature){
+		    	
+		    	$reg = "~\b".$feature."\b~";
+		    	if (preg_match($reg,$string)){
+
+		    		$tf1 = substr_count($string, $feature);
+		    		$tf2 = str_word_count($string);
+		    		
+		    		if($tf2 != 0){
+		    			$tf = $tf1/$tf2;
+		    		}else{
+		    			$tf = 0;
+		    		}
+
+		    		$idf1 = $count;
+					$idf2 = 0;
+		    		
+		    		foreach($collectionCounsel as $str1){
+		    			$idf2 = $idf2 + substr_count($str1, $feature);
+		    		}
+
+		    		foreach($collection as $str1){
+		    			$idf2 = $idf2 + substr_count($str1, $feature);
+		    		}
+
+		    		if($idf2 != 0){
+		    			$idf = log($idf1/$idf2);
+		    		}else{
+		    			$idf = 0;
+		    		}
+
+		    		$tfidf = $tf * $idf;
+
+		    		if($tfidf != 0){
+		    			if($trigger == 0){
+			    			$trigger = 1;
+		    				$txt = "+1 " . $index . ":" . $tfidf . " ";
+		    			}else{
+		    				$txt = $index . ":" . $tfidf . " ";
+		    			}
+		    			fwrite($myfile, $txt);
+		    		}
+
+		    	}
+		    	
+		    	$index++;
+		    
+		    }
+		    if(!$trigger == 0){
+				fwrite($myfile, "\r\n");
+			}
+			$index = 1;
+			$trigger = 0;
+		}
+
+		foreach ($collection as $string) {
+		    
+		    foreach($features as $feature){
+		    	
+		    	$reg = "~\b".$feature."\b~";
+		    	if (preg_match($reg,$string)){
+		    		
+		    		$tf1 = substr_count($string, $feature);
+		    		$tf2 = str_word_count($string);
+		    		
+		    		if($tf2 != 0){
+		    			$tf = $tf1/$tf2;
+		    		}else{
+		    			$tf = 0;
+		    		}
+
+		    		$idf1 = $count;
+					$idf2 = 0;
+		    		
+		    		foreach($collectionCounsel as $str1){
+		    			$idf2 = $idf2 + substr_count($str1, $feature);
+		    		}
+
+		    		foreach($collection as $str1){
+		    			$idf2 = $idf2 + substr_count($str1, $feature);
+		    		}
+
+		    		if($idf2 != 0){
+		    			$idf = log($idf1/$idf2);
+		    		}else{
+		    			$idf = 0;
+		    		}
+
+		    		$tfidf = $tf * $idf;
+
+		    		if($tfidf != 0){
+		    			if($trigger == 0){
+			    			$trigger = 1;
+		    				$txt = "-1 " . $index . ":" . $tfidf . " ";
+		    			}else{
+		    				$txt = $index . ":" . $tfidf . " ";
+		    			}
+		    			fwrite($myfile, $txt);
+		    		}
+
+		    	}
+		    	
+		    	$index++;
+		    
+		    }
+			if(!$trigger == 0){
+				fwrite($myfile, "\r\n");
+			}
+			$index = 1;
+			$trigger = 0;
+		
+		}
+
+		fclose($myfile);
+	
+		echo json_encode("Counsel Done.");	
+	}
+
+	function retrieveSchoolDays(){
+
+		$features = array('sa','vacant', 'position', 'positions', 'apply', '3b', '3c', 'units', 'orientation', 'generate', 'DTR', 'student', 'assistant', 'assistantship', 'submit', 'late', 'salary', 'diff', 'differential', 'landbank', 'bank', 'account', 'atm', 'card', 'claiming', 'max', 'maximum', 'hours', 'midyear', 'canceled', 'work', 'sweldo', 'personal', 'opening', 'slots', 'payroll', 'underload', 'daily', 'time', 'record', 'appointment', 'reset', 'schedule', '5th', 'working', 'day', 'allowance', 'SLB', 'student', 'loan', 'board', 'deadline', 'application', 'form', 'flow', 'process', 'co-debtor', 'certification', 'scanned', 'photocopy', 'valid', 'id', '100%', 'graduate', 'remaining', 'balance', 'payment', 'transactions', 'due', 'date', 'installments', 'magkano', 'bayad', 'interest', 'computation', 'okay', 'ok', 'thank', 'you', 'very', 'much', 'so', 'maraming', 'salamat', 'thanks', 'more', 'power', 'god', 'bless', 'cash', 'loan', 'apply', 'emergency', 'access', 'osam', 'website', 'temporary', 'account', 'acc', 'acct', 'password', 'information', 'profile', 'clearance', 'number', 'update', 'registration', 'period', 'extended', 'extension', 'extend', 'online', 'enlistment', 'matriculation', 'fee', 'promissory', 'note', 'letter', 'checks', 'tuition', 'readmission', 'organization', 'org', 'adviser', 'recognition', 'recog', 'activity', 'permit', 'campus', 'tour', 'volunteer', 'scholarship', 'scholar', 'scholarship', 'offer', 'offered', 'iskolar', 'bayan', 'act', 'qualify', 'sts', 'summer', 'scheduled', 'interview', 'appeal', 'pin', 'lost', 'results', 'refund', 'bracket', 'change', 'stipend', 'psychological', 'counseling', 'testing', 'psychologist', 'classes', 'suspended', 'today', 'academic', 'calendar', 'pasok', 'suspension', 'governor', 'memo', 'SAIS', 'upsais', 'courses', 'username', 'removals', 'removal', 'exam', 'exams', 'final', 'finals', 'mail', 'upmail', 'itc', 'our', 'exchange', 'programs', 'feb', 'fair', 'usc');
+
+		$collectionSchoolDays = []; 
+		$collection = [];
+
+		$count = 0;
+
+		$im = new InquiriesMapper($this->db);
+		
+		$im->load();
+
+		while(!$im->dry()){
+
+			if($im->category == 10){
+			
+				$count++;
+				$inquiry = $im->inquiry;
+				array_push($collectionSchoolDays, $inquiry);
+				$im->next();
+			
+			}else if($im->category != 13 || $im->category != 19){
+				
+				$count++;
+				$inquiry = $im->inquiry;
+				array_push($collection, $inquiry);
+				$im->next();
+			
+			}
+		
+			$im->next();
+
+		}
+
+		$collectionSchoolDays = array_map('strtolower', $collectionSchoolDays);
+		$collection = array_map('strtolower', $collection);
+		$features = array_map('strtolower', $features);
+
+		foreach ($collectionSchoolDays as $key => $value){
+		   $collectionSchoolDays[$key]  = str_replace(array("?", "!", ",", ";", "<", ">", ".", "(", ")"), "", $value);
+		}
+
+		foreach ($collection as $key => $value){
+		   $collection[$key]  = str_replace(array("?", "!", ",", ";", "<", ">", ".", "(", ")"), "", $value);
+		}
+
+		$myfile = fopen("SchoolDays.train", "w");
+		$index = 1;
+		$trigger = 0;
+		
+		foreach ($collectionSchoolDays as $string) {
+
+		    foreach($features as $feature){
+		    	
+		    	$reg = "~\b".$feature."\b~";
+		    	if (preg_match($reg,$string)){
+
+		    		$tf1 = substr_count($string, $feature);
+		    		$tf2 = str_word_count($string);
+		    		
+		    		if($tf2 != 0){
+		    			$tf = $tf1/$tf2;
+		    		}else{
+		    			$tf = 0;
+		    		}
+
+		    		$idf1 = $count;
+					$idf2 = 0;
+		    		
+		    		foreach($collectionSchoolDays as $str1){
+		    			$idf2 = $idf2 + substr_count($str1, $feature);
+		    		}
+
+		    		foreach($collection as $str1){
+		    			$idf2 = $idf2 + substr_count($str1, $feature);
+		    		}
+
+		    		if($idf2 != 0){
+		    			$idf = log($idf1/$idf2);
+		    		}else{
+		    			$idf = 0;
+		    		}
+
+		    		$tfidf = $tf * $idf;
+
+		    		if($tfidf != 0){
+		    			if($trigger == 0){
+			    			$trigger = 1;
+		    				$txt = "+1 " . $index . ":" . $tfidf . " ";
+		    			}else{
+		    				$txt = $index . ":" . $tfidf . " ";
+		    			}
+		    			fwrite($myfile, $txt);
+		    		}
+
+		    	}
+		    	
+		    	$index++;
+		    
+		    }
+		    if(!$trigger == 0){
+				fwrite($myfile, "\r\n");
+			}
+			$index = 1;
+			$trigger = 0;
+		}
+
+		foreach ($collection as $string) {
+		    
+		    foreach($features as $feature){
+		    	
+		    	$reg = "~\b".$feature."\b~";
+		    	if (preg_match($reg,$string)){
+		    		
+		    		$tf1 = substr_count($string, $feature);
+		    		$tf2 = str_word_count($string);
+		    		
+		    		if($tf2 != 0){
+		    			$tf = $tf1/$tf2;
+		    		}else{
+		    			$tf = 0;
+		    		}
+
+		    		$idf1 = $count;
+					$idf2 = 0;
+		    		
+		    		foreach($collectionSchoolDays as $str1){
+		    			$idf2 = $idf2 + substr_count($str1, $feature);
+		    		}
+
+		    		foreach($collection as $str1){
+		    			$idf2 = $idf2 + substr_count($str1, $feature);
+		    		}
+
+		    		if($idf2 != 0){
+		    			$idf = log($idf1/$idf2);
+		    		}else{
+		    			$idf = 0;
+		    		}
+
+		    		$tfidf = $tf * $idf;
+
+		    		if($tfidf != 0){
+		    			if($trigger == 0){
+			    			$trigger = 1;
+		    				$txt = "-1 " . $index . ":" . $tfidf . " ";
+		    			}else{
+		    				$txt = $index . ":" . $tfidf . " ";
+		    			}
+		    			fwrite($myfile, $txt);
+		    		}
+
+		    	}
+		    	
+		    	$index++;
+		    
+		    }
+			if(!$trigger == 0){
+				fwrite($myfile, "\r\n");
+			}
+			$index = 1;
+			$trigger = 0;
+		
+		}
+
+		fclose($myfile);
+	
+		echo json_encode("School Days Done.");	
+	}
+
+	function retrieveSAIS(){
+
+		$features = array('sa','vacant', 'position', 'positions', 'apply', '3b', '3c', 'units', 'orientation', 'generate', 'DTR', 'student', 'assistant', 'assistantship', 'submit', 'late', 'salary', 'diff', 'differential', 'landbank', 'bank', 'account', 'atm', 'card', 'claiming', 'max', 'maximum', 'hours', 'midyear', 'canceled', 'work', 'sweldo', 'personal', 'opening', 'slots', 'payroll', 'underload', 'daily', 'time', 'record', 'appointment', 'reset', 'schedule', '5th', 'working', 'day', 'allowance', 'SLB', 'student', 'loan', 'board', 'deadline', 'application', 'form', 'flow', 'process', 'co-debtor', 'certification', 'scanned', 'photocopy', 'valid', 'id', '100%', 'graduate', 'remaining', 'balance', 'payment', 'transactions', 'due', 'date', 'installments', 'magkano', 'bayad', 'interest', 'computation', 'okay', 'ok', 'thank', 'you', 'very', 'much', 'so', 'maraming', 'salamat', 'thanks', 'more', 'power', 'god', 'bless', 'cash', 'loan', 'apply', 'emergency', 'access', 'osam', 'website', 'temporary', 'account', 'acc', 'acct', 'password', 'information', 'profile', 'clearance', 'number', 'update', 'registration', 'period', 'extended', 'extension', 'extend', 'online', 'enlistment', 'matriculation', 'fee', 'promissory', 'note', 'letter', 'checks', 'tuition', 'readmission', 'organization', 'org', 'adviser', 'recognition', 'recog', 'activity', 'permit', 'campus', 'tour', 'volunteer', 'scholarship', 'scholar', 'scholarship', 'offer', 'offered', 'iskolar', 'bayan', 'act', 'qualify', 'sts', 'summer', 'scheduled', 'interview', 'appeal', 'pin', 'lost', 'results', 'refund', 'bracket', 'change', 'stipend', 'psychological', 'counseling', 'testing', 'psychologist', 'classes', 'suspended', 'today', 'academic', 'calendar', 'pasok', 'suspension', 'governor', 'memo', 'SAIS', 'upsais', 'courses', 'username', 'removals', 'removal', 'exam', 'exams', 'final', 'finals', 'mail', 'upmail', 'itc', 'our', 'exchange', 'programs', 'feb', 'fair', 'usc');
+
+		$collectionSAIS = []; 
+		$collection = [];
+
+		$count = 0;
+
+		$im = new InquiriesMapper($this->db);
+		
+		$im->load();
+
+		while(!$im->dry()){
+
+			if($im->category == 11){
+			
+				$count++;
+				$inquiry = $im->inquiry;
+				array_push($collectionSAIS, $inquiry);
+				$im->next();
+			
+			}else if($im->category != 13 || $im->category != 19){
+				
+				$count++;
+				$inquiry = $im->inquiry;
+				array_push($collection, $inquiry);
+				$im->next();
+			
+			}
+		
+			$im->next();
+
+		}
+
+		$collectionSAIS = array_map('strtolower', $collectionSAIS);
+		$collection = array_map('strtolower', $collection);
+		$features = array_map('strtolower', $features);
+
+		foreach ($collectionSAIS as $key => $value){
+		   $collectionSAIS[$key]  = str_replace(array("?", "!", ",", ";", "<", ">", ".", "(", ")"), "", $value);
+		}
+
+		foreach ($collection as $key => $value){
+		   $collection[$key]  = str_replace(array("?", "!", ",", ";", "<", ">", ".", "(", ")"), "", $value);
+		}
+
+		$myfile = fopen("SAIS.train", "w");
+		$index = 1;
+		$trigger = 0;
+		
+		foreach ($collectionSAIS as $string) {
+
+		    foreach($features as $feature){
+		    	
+		    	$reg = "~\b".$feature."\b~";
+		    	if (preg_match($reg,$string)){
+
+		    		$tf1 = substr_count($string, $feature);
+		    		$tf2 = str_word_count($string);
+		    		
+		    		if($tf2 != 0){
+		    			$tf = $tf1/$tf2;
+		    		}else{
+		    			$tf = 0;
+		    		}
+
+		    		$idf1 = $count;
+					$idf2 = 0;
+		    		
+		    		foreach($collectionSAIS as $str1){
+		    			$idf2 = $idf2 + substr_count($str1, $feature);
+		    		}
+
+		    		foreach($collection as $str1){
+		    			$idf2 = $idf2 + substr_count($str1, $feature);
+		    		}
+
+		    		if($idf2 != 0){
+		    			$idf = log($idf1/$idf2);
+		    		}else{
+		    			$idf = 0;
+		    		}
+
+		    		$tfidf = $tf * $idf;
+
+		    		if($tfidf != 0){
+		    			if($trigger == 0){
+			    			$trigger = 1;
+		    				$txt = "+1 " . $index . ":" . $tfidf . " ";
+		    			}else{
+		    				$txt = $index . ":" . $tfidf . " ";
+		    			}
+		    			fwrite($myfile, $txt);
+		    		}
+
+		    	}
+		    	
+		    	$index++;
+		    
+		    }
+		    if(!$trigger == 0){
+				fwrite($myfile, "\r\n");
+			}
+			$index = 1;
+			$trigger = 0;
+		}
+
+		foreach ($collection as $string) {
+		    
+		    foreach($features as $feature){
+		    	
+		    	$reg = "~\b".$feature."\b~";
+		    	if (preg_match($reg,$string)){
+		    		
+		    		$tf1 = substr_count($string, $feature);
+		    		$tf2 = str_word_count($string);
+		    		
+		    		if($tf2 != 0){
+		    			$tf = $tf1/$tf2;
+		    		}else{
+		    			$tf = 0;
+		    		}
+
+		    		$idf1 = $count;
+					$idf2 = 0;
+		    		
+		    		foreach($collectionSAIS as $str1){
+		    			$idf2 = $idf2 + substr_count($str1, $feature);
+		    		}
+
+		    		foreach($collection as $str1){
+		    			$idf2 = $idf2 + substr_count($str1, $feature);
+		    		}
+
+		    		if($idf2 != 0){
+		    			$idf = log($idf1/$idf2);
+		    		}else{
+		    			$idf = 0;
+		    		}
+
+		    		$tfidf = $tf * $idf;
+
+		    		if($tfidf != 0){
+		    			if($trigger == 0){
+			    			$trigger = 1;
+		    				$txt = "-1 " . $index . ":" . $tfidf . " ";
+		    			}else{
+		    				$txt = $index . ":" . $tfidf . " ";
+		    			}
+		    			fwrite($myfile, $txt);
+		    		}
+
+		    	}
+		    	
+		    	$index++;
+		    
+		    }
+			if(!$trigger == 0){
+				fwrite($myfile, "\r\n");
+			}
+			$index = 1;
+			$trigger = 0;
+		
+		}
+
+		fclose($myfile);
+	
+		echo json_encode("SAIS Done.");	
+	}
+
+	function retrieveAcad(){
+
+		$features = array('sa','vacant', 'position', 'positions', 'apply', '3b', '3c', 'units', 'orientation', 'generate', 'DTR', 'student', 'assistant', 'assistantship', 'submit', 'late', 'salary', 'diff', 'differential', 'landbank', 'bank', 'account', 'atm', 'card', 'claiming', 'max', 'maximum', 'hours', 'midyear', 'canceled', 'work', 'sweldo', 'personal', 'opening', 'slots', 'payroll', 'underload', 'daily', 'time', 'record', 'appointment', 'reset', 'schedule', '5th', 'working', 'day', 'allowance', 'SLB', 'student', 'loan', 'board', 'deadline', 'application', 'form', 'flow', 'process', 'co-debtor', 'certification', 'scanned', 'photocopy', 'valid', 'id', '100%', 'graduate', 'remaining', 'balance', 'payment', 'transactions', 'due', 'date', 'installments', 'magkano', 'bayad', 'interest', 'computation', 'okay', 'ok', 'thank', 'you', 'very', 'much', 'so', 'maraming', 'salamat', 'thanks', 'more', 'power', 'god', 'bless', 'cash', 'loan', 'apply', 'emergency', 'access', 'osam', 'website', 'temporary', 'account', 'acc', 'acct', 'password', 'information', 'profile', 'clearance', 'number', 'update', 'registration', 'period', 'extended', 'extension', 'extend', 'online', 'enlistment', 'matriculation', 'fee', 'promissory', 'note', 'letter', 'checks', 'tuition', 'readmission', 'organization', 'org', 'adviser', 'recognition', 'recog', 'activity', 'permit', 'campus', 'tour', 'volunteer', 'scholarship', 'scholar', 'scholarship', 'offer', 'offered', 'iskolar', 'bayan', 'act', 'qualify', 'sts', 'summer', 'scheduled', 'interview', 'appeal', 'pin', 'lost', 'results', 'refund', 'bracket', 'change', 'stipend', 'psychological', 'counseling', 'testing', 'psychologist', 'classes', 'suspended', 'today', 'academic', 'calendar', 'pasok', 'suspension', 'governor', 'memo', 'SAIS', 'upsais', 'courses', 'username', 'removals', 'removal', 'exam', 'exams', 'final', 'finals', 'mail', 'upmail', 'itc', 'our', 'exchange', 'programs', 'feb', 'fair', 'usc');
+
+		$collectionAcad = []; 
+		$collection = [];
+
+		$count = 0;
+
+		$im = new InquiriesMapper($this->db);
+		
+		$im->load();
+
+		while(!$im->dry()){
+
+			if($im->category == 12){
+			
+				$count++;
+				$inquiry = $im->inquiry;
+				array_push($collectionAcad, $inquiry);
+				$im->next();
+			
+			}else if($im->category != 13 || $im->category != 19){
+				
+				$count++;
+				$inquiry = $im->inquiry;
+				array_push($collection, $inquiry);
+				$im->next();
+			
+			}
+		
+			$im->next();
+
+		}
+
+		$collectionAcad = array_map('strtolower', $collectionAcad);
+		$collection = array_map('strtolower', $collection);
+		$features = array_map('strtolower', $features);
+
+		foreach ($collectionAcad as $key => $value){
+		   $collectionAcad[$key]  = str_replace(array("?", "!", ",", ";", "<", ">", ".", "(", ")"), "", $value);
+		}
+
+		foreach ($collection as $key => $value){
+		   $collection[$key]  = str_replace(array("?", "!", ",", ";", "<", ">", ".", "(", ")"), "", $value);
+		}
+
+		$myfile = fopen("Acad.train", "w");
+		$index = 1;
+		$trigger = 0;
+		
+		foreach ($collectionAcad as $string) {
+
+		    foreach($features as $feature){
+		    	
+		    	$reg = "~\b".$feature."\b~";
+		    	if (preg_match($reg,$string)){
+
+		    		$tf1 = substr_count($string, $feature);
+		    		$tf2 = str_word_count($string);
+		    		
+		    		if($tf2 != 0){
+		    			$tf = $tf1/$tf2;
+		    		}else{
+		    			$tf = 0;
+		    		}
+
+		    		$idf1 = $count;
+					$idf2 = 0;
+		    		
+		    		foreach($collectionAcad as $str1){
+		    			$idf2 = $idf2 + substr_count($str1, $feature);
+		    		}
+
+		    		foreach($collection as $str1){
+		    			$idf2 = $idf2 + substr_count($str1, $feature);
+		    		}
+
+		    		if($idf2 != 0){
+		    			$idf = log($idf1/$idf2);
+		    		}else{
+		    			$idf = 0;
+		    		}
+
+		    		$tfidf = $tf * $idf;
+
+		    		if($tfidf != 0){
+		    			if($trigger == 0){
+			    			$trigger = 1;
+		    				$txt = "+1 " . $index . ":" . $tfidf . " ";
+		    			}else{
+		    				$txt = $index . ":" . $tfidf . " ";
+		    			}
+		    			fwrite($myfile, $txt);
+		    		}
+
+		    	}
+		    	
+		    	$index++;
+		    
+		    }
+		    if(!$trigger == 0){
+				fwrite($myfile, "\r\n");
+			}
+			$index = 1;
+			$trigger = 0;
+		}
+
+		foreach ($collection as $string) {
+		    
+		    foreach($features as $feature){
+		    	
+		    	$reg = "~\b".$feature."\b~";
+		    	if (preg_match($reg,$string)){
+		    		
+		    		$tf1 = substr_count($string, $feature);
+		    		$tf2 = str_word_count($string);
+		    		
+		    		if($tf2 != 0){
+		    			$tf = $tf1/$tf2;
+		    		}else{
+		    			$tf = 0;
+		    		}
+
+		    		$idf1 = $count;
+					$idf2 = 0;
+		    		
+		    		foreach($collectionAcad as $str1){
+		    			$idf2 = $idf2 + substr_count($str1, $feature);
+		    		}
+
+		    		foreach($collection as $str1){
+		    			$idf2 = $idf2 + substr_count($str1, $feature);
+		    		}
+
+		    		if($idf2 != 0){
+		    			$idf = log($idf1/$idf2);
+		    		}else{
+		    			$idf = 0;
+		    		}
+
+		    		$tfidf = $tf * $idf;
+
+		    		if($tfidf != 0){
+		    			if($trigger == 0){
+			    			$trigger = 1;
+		    				$txt = "-1 " . $index . ":" . $tfidf . " ";
+		    			}else{
+		    				$txt = $index . ":" . $tfidf . " ";
+		    			}
+		    			fwrite($myfile, $txt);
+		    		}
+
+		    	}
+		    	
+		    	$index++;
+		    
+		    }
+			if(!$trigger == 0){
+				fwrite($myfile, "\r\n");
+			}
+			$index = 1;
+			$trigger = 0;
+		
+		}
+
+		fclose($myfile);
+	
+		echo json_encode("Acad Related Done.");	
+	}
+
+	function retrieveOther(){
+
+		$features = array('sa','vacant', 'position', 'positions', 'apply', '3b', '3c', 'units', 'orientation', 'generate', 'DTR', 'student', 'assistant', 'assistantship', 'submit', 'late', 'salary', 'diff', 'differential', 'landbank', 'bank', 'account', 'atm', 'card', 'claiming', 'max', 'maximum', 'hours', 'midyear', 'canceled', 'work', 'sweldo', 'personal', 'opening', 'slots', 'payroll', 'underload', 'daily', 'time', 'record', 'appointment', 'reset', 'schedule', '5th', 'working', 'day', 'allowance', 'SLB', 'student', 'loan', 'board', 'deadline', 'application', 'form', 'flow', 'process', 'co-debtor', 'certification', 'scanned', 'photocopy', 'valid', 'id', '100%', 'graduate', 'remaining', 'balance', 'payment', 'transactions', 'due', 'date', 'installments', 'magkano', 'bayad', 'interest', 'computation', 'okay', 'ok', 'thank', 'you', 'very', 'much', 'so', 'maraming', 'salamat', 'thanks', 'more', 'power', 'god', 'bless', 'cash', 'loan', 'apply', 'emergency', 'access', 'osam', 'website', 'temporary', 'account', 'acc', 'acct', 'password', 'information', 'profile', 'clearance', 'number', 'update', 'registration', 'period', 'extended', 'extension', 'extend', 'online', 'enlistment', 'matriculation', 'fee', 'promissory', 'note', 'letter', 'checks', 'tuition', 'readmission', 'organization', 'org', 'adviser', 'recognition', 'recog', 'activity', 'permit', 'campus', 'tour', 'volunteer', 'scholarship', 'scholar', 'scholarship', 'offer', 'offered', 'iskolar', 'bayan', 'act', 'qualify', 'sts', 'summer', 'scheduled', 'interview', 'appeal', 'pin', 'lost', 'results', 'refund', 'bracket', 'change', 'stipend', 'psychological', 'counseling', 'testing', 'psychologist', 'classes', 'suspended', 'today', 'academic', 'calendar', 'pasok', 'suspension', 'governor', 'memo', 'SAIS', 'upsais', 'courses', 'username', 'removals', 'removal', 'exam', 'exams', 'final', 'finals', 'mail', 'upmail', 'itc', 'our', 'exchange', 'programs', 'feb', 'fair', 'usc');
+
+		$collectionOther = []; 
+		$collection = [];
+
+		$count = 0;
+
+		$im = new InquiriesMapper($this->db);
+		
+		$im->load();
+
+		while(!$im->dry()){
+
+			if($im->category == 18){
+			
+				$count++;
+				$inquiry = $im->inquiry;
+				array_push($collectionOther, $inquiry);
+				$im->next();
+			
+			}else if($im->category != 13 || $im->category != 19){
+				
+				$count++;
+				$inquiry = $im->inquiry;
+				array_push($collection, $inquiry);
+				$im->next();
+			
+			}
+		
+			$im->next();
+
+		}
+
+		$collectionOther = array_map('strtolower', $collectionOther);
+		$collection = array_map('strtolower', $collection);
+		$features = array_map('strtolower', $features);
+
+		foreach ($collectionOther as $key => $value){
+		   $collectionOther[$key]  = str_replace(array("?", "!", ",", ";", "<", ">", ".", "(", ")"), "", $value);
+		}
+
+		foreach ($collection as $key => $value){
+		   $collection[$key]  = str_replace(array("?", "!", ",", ";", "<", ">", ".", "(", ")"), "", $value);
+		}
+
+		$myfile = fopen("Other.train", "w");
+		$index = 1;
+		$trigger = 0;
+		
+		foreach ($collectionOther as $string) {
+
+		    foreach($features as $feature){
+		    	
+		    	$reg = "~\b".$feature."\b~";
+		    	if (preg_match($reg,$string)){
+
+		    		$tf1 = substr_count($string, $feature);
+		    		$tf2 = str_word_count($string);
+		    		
+		    		if($tf2 != 0){
+		    			$tf = $tf1/$tf2;
+		    		}else{
+		    			$tf = 0;
+		    		}
+
+		    		$idf1 = $count;
+					$idf2 = 0;
+		    		
+		    		foreach($collectionOther as $str1){
+		    			$idf2 = $idf2 + substr_count($str1, $feature);
+		    		}
+
+		    		foreach($collection as $str1){
+		    			$idf2 = $idf2 + substr_count($str1, $feature);
+		    		}
+
+		    		if($idf2 != 0){
+		    			$idf = log($idf1/$idf2);
+		    		}else{
+		    			$idf = 0;
+		    		}
+
+		    		$tfidf = $tf * $idf;
+
+		    		if($tfidf != 0){
+		    			if($trigger == 0){
+			    			$trigger = 1;
+		    				$txt = "+1 " . $index . ":" . $tfidf . " ";
+		    			}else{
+		    				$txt = $index . ":" . $tfidf . " ";
+		    			}
+		    			fwrite($myfile, $txt);
+		    		}
+
+		    	}
+		    	
+		    	$index++;
+		    
+		    }
+		    if(!$trigger == 0){
+				fwrite($myfile, "\r\n");
+			}
+			$index = 1;
+			$trigger = 0;
+		}
+
+		foreach ($collection as $string) {
+		    
+		    foreach($features as $feature){
+		    	
+		    	$reg = "~\b".$feature."\b~";
+		    	if (preg_match($reg,$string)){
+		    		
+		    		$tf1 = substr_count($string, $feature);
+		    		$tf2 = str_word_count($string);
+		    		
+		    		if($tf2 != 0){
+		    			$tf = $tf1/$tf2;
+		    		}else{
+		    			$tf = 0;
+		    		}
+
+		    		$idf1 = $count;
+					$idf2 = 0;
+		    		
+		    		foreach($collectionOther as $str1){
+		    			$idf2 = $idf2 + substr_count($str1, $feature);
+		    		}
+
+		    		foreach($collection as $str1){
+		    			$idf2 = $idf2 + substr_count($str1, $feature);
+		    		}
+
+		    		if($idf2 != 0){
+		    			$idf = log($idf1/$idf2);
+		    		}else{
+		    			$idf = 0;
+		    		}
+
+		    		$tfidf = $tf * $idf;
+
+		    		if($tfidf != 0){
+		    			if($trigger == 0){
+			    			$trigger = 1;
+		    				$txt = "-1 " . $index . ":" . $tfidf . " ";
+		    			}else{
+		    				$txt = $index . ":" . $tfidf . " ";
+		    			}
+		    			fwrite($myfile, $txt);
+		    		}
+
+		    	}
+		    	
+		    	$index++;
+		    
+		    }
+			if(!$trigger == 0){
+				fwrite($myfile, "\r\n");
+			}
+			$index = 1;
+			$trigger = 0;
+		
+		}
+
+		fclose($myfile);
+	
+		echo json_encode("Other inquiries Done.");	
+	}
+
+
 	function createTestData(){
 
-		$features = array('sa','vacant', 'position', 'positions', 'apply', '3b', '3c', 'units', 'orientation', 'generate', 'DTR', 'student', 'assistant', 'assistantship', 'submit', 'late', 'salary', 'diff', 'differential', 'landbank', 'bank', 'account', 'atm', 'card', 'claiming', 'max', 'maximum', 'hours', 'midyear', 'canceled', 'work', 'sweldo', 'personal', 'opening', 'slots', 'payroll', 'underload', 'daily', 'time', 'record', 'appointment', 'reset', 'schedule', '5th', 'working', 'day', 'allowance', 'SLB', 'student', 'loan', 'board', 'deadline', 'application', 'form', 'flow', 'process', 'co-debtor', 'certification', 'scanned', 'photocopy', 'valid', 'id', '100%', 'graduate', 'remaining', 'balance', 'payment', 'transactions', 'due', 'date', 'installments', 'magkano', 'bayad', 'interest', 'computation', 'okay', 'ok', 'thank', 'you', 'very', 'much', 'so', 'maraming', 'salamat', 'thanks', 'more', 'power', 'god', 'bless', 'cash', 'loan', 'apply', 'emergency', 'access', 'osam', 'website', 'temporary', 'account', 'acc', 'acct', 'password', 'information', 'profile', 'clearance', 'number', 'update', 'registration', 'period', 'extended', 'extension', 'extend', 'online', 'enlistment', 'matriculation', 'fee', 'promissory', 'note', 'letter', 'checks', 'tuition', 'readmission', 'organization', 'org', 'adviser', 'recognition', 'recog', 'activity', 'permit', 'campus', 'tour', 'volunteer', 'scholarship', 'scholar', 'scholarship', 'offer', 'offered', 'iskolar', 'bayan', 'act', 'qualify');
+		$features = array('sa','vacant', 'position', 'positions', 'apply', '3b', '3c', 'units', 'orientation', 'generate', 'DTR', 'student', 'assistant', 'assistantship', 'submit', 'late', 'salary', 'diff', 'differential', 'landbank', 'bank', 'account', 'atm', 'card', 'claiming', 'max', 'maximum', 'hours', 'midyear', 'canceled', 'work', 'sweldo', 'personal', 'opening', 'slots', 'payroll', 'underload', 'daily', 'time', 'record', 'appointment', 'reset', 'schedule', '5th', 'working', 'day', 'allowance', 'SLB', 'student', 'loan', 'board', 'deadline', 'application', 'form', 'flow', 'process', 'co-debtor', 'certification', 'scanned', 'photocopy', 'valid', 'id', '100%', 'graduate', 'remaining', 'balance', 'payment', 'transactions', 'due', 'date', 'installments', 'magkano', 'bayad', 'interest', 'computation', 'okay', 'ok', 'thank', 'you', 'very', 'much', 'so', 'maraming', 'salamat', 'thanks', 'more', 'power', 'god', 'bless', 'cash', 'loan', 'apply', 'emergency', 'access', 'osam', 'website', 'temporary', 'account', 'acc', 'acct', 'password', 'information', 'profile', 'clearance', 'number', 'update', 'registration', 'period', 'extended', 'extension', 'extend', 'online', 'enlistment', 'matriculation', 'fee', 'promissory', 'note', 'letter', 'checks', 'tuition', 'readmission', 'organization', 'org', 'adviser', 'recognition', 'recog', 'activity', 'permit', 'campus', 'tour', 'volunteer', 'scholarship', 'scholar', 'scholarship', 'offer', 'offered', 'iskolar', 'bayan', 'act', 'qualify', 'sts', 'summer', 'scheduled', 'interview', 'appeal', 'pin', 'lost', 'results', 'refund', 'bracket', 'change', 'stipend', 'psychological', 'counseling', 'testing', 'psychologist', 'classes', 'suspended', 'today', 'academic', 'calendar', 'pasok', 'suspension', 'governor', 'memo', 'SAIS', 'upsais', 'courses', 'username', 'removals', 'removal', 'exam', 'exams', 'final', 'finals', 'mail', 'upmail', 'itc', 'our', 'exchange', 'programs', 'feb', 'fair', 'usc');
 
 		$collection = [];
 
@@ -1410,7 +2437,7 @@ class PageController extends Controller{
 		}
 
 
-		$test = array('ano po yung scholarships offered', 'ano po ung iskolar ng bayan act');
+		$test = array('saan po makukuha ung pin para sa sts', 'kelan po mabibigay yung refund kapag nag change ng bracket', 'pano po kapag nalagpasan ng interview para sa sts appeal');
 
 		$test = array_map('strtolower', $test);
 		$collection = array_map('strtolower', $collection);

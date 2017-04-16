@@ -132,6 +132,122 @@ $('#scholarshipButton').click(function(){
 
 });
 
+$('#stsButton').click(function(){
+
+  Materialize.toast('Retrieving STS inquiries...', 3000);
+
+    $.ajax({
+        type: 'POST',
+        url: 'retrieveSTS',
+        success: function(data) {
+
+          data = JSON.parse(data);
+
+          Materialize.toast('Scholarship inquiries successfully retrieved.', 3000);
+          console.log(data);
+          
+        }
+  });
+
+});
+
+
+$('#counselButton').click(function(){
+
+  Materialize.toast('Retrieving Counsel inquiries...', 3000);
+
+    $.ajax({
+        type: 'POST',
+        url: 'retrieveCounsel',
+        success: function(data) {
+
+          data = JSON.parse(data);
+
+          Materialize.toast('Counsel inquiries successfully retrieved.', 3000);
+          console.log(data);
+          
+        }
+  });
+
+});
+
+$('#schoolDaysButton').click(function(){
+
+  Materialize.toast('Retrieving School Days inquiries...', 3000);
+
+    $.ajax({
+        type: 'POST',
+        url: 'retrieveSchoolDays',
+        success: function(data) {
+
+          data = JSON.parse(data);
+
+          Materialize.toast('School Days inquiries successfully retrieved.', 3000);
+          console.log(data);
+          
+        }
+  });
+
+});
+
+
+$('#saisButton').click(function(){
+
+  Materialize.toast('Retrieving SAIS inquiries...', 3000);
+
+    $.ajax({
+        type: 'POST',
+        url: 'retrieveSAIS',
+        success: function(data) {
+
+          data = JSON.parse(data);
+
+          Materialize.toast('SAIS inquiries successfully retrieved.', 3000);
+          console.log(data);
+          
+        }
+  });
+
+});
+
+$('#acadButton').click(function(){
+
+  Materialize.toast('Retrieving Academic Related inquiries...', 3000);
+
+    $.ajax({
+        type: 'POST',
+        url: 'retrieveAcad',
+        success: function(data) {
+
+          data = JSON.parse(data);
+
+          Materialize.toast('Academic Related inquiries successfully retrieved.', 3000);
+          console.log(data);
+          
+        }
+  });
+
+});
+
+$('#otherButton').click(function(){
+
+  Materialize.toast('Retrieving Other Offices inquiries...', 3000);
+
+    $.ajax({
+        type: 'POST',
+        url: 'retrieveOther',
+        success: function(data) {
+
+          data = JSON.parse(data);
+
+          Materialize.toast('Other Offices inquiries successfully retrieved.', 3000);
+          console.log(data);
+          
+        }
+  });
+
+});
+
 $('#closingButton').click(function(){
 
   Materialize.toast('Retrieving Closing inquiries...', 3000);

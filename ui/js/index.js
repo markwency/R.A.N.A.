@@ -113,25 +113,6 @@ $('#studActButton').click(function(){
 
 });
 
-$('#scholarshipButton').click(function(){
-
-  Materialize.toast('Retrieving Scholarship inquiries...', 3000);
-
-    $.ajax({
-        type: 'POST',
-        url: 'retrieveScholarship',
-        success: function(data) {
-
-          data = JSON.parse(data);
-
-          Materialize.toast('Scholarship inquiries successfully retrieved.', 3000);
-          console.log(data);
-          
-        }
-  });
-
-});
-
 $('#closingButton').click(function(){
 
   Materialize.toast('Retrieving Closing inquiries...', 3000);

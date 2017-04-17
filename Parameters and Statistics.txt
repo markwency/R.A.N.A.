@@ -1,0 +1,71 @@
+Parameters:
+
+
+SA (616):
+svm-train -g 0.125 -c 2048 SA.train
+Cross Validation Accuracy = 94.4122%
+
+
+SLB (235):
+svm-train -g 0.001953125 -c 8192 SLB.train
+Cross Validation Accuracy = 97.8423%
+
+
+Cash Loan (44):
+svm-train -t 0 -g 8 -c 128 CashLoan.train
+Cross Validation Accuracy = 99.5021%
+
+
+OSAM (260):
+svm-train -t 0 -g 2 -c 32 OSAM.train
+Cross Validation Accuracy = 97.3167%
+
+
+Registration (297):
+svm-train.exe -t 0 -g 0.5 -c 128 Registration.train
+Cross Validation Accuracy = 97.538%
+
+
+Student Activity (161):
+svm-train -g 0.125 -c 2048 StudentAct.train
+Cross Validation Accuracy = 98.3126%
+
+
+Scholarship (105):
+svm-train -t 0 -g 8 -c 8 Scholarship.train
+Cross Validation Accuracy = 98.5062%
+
+
+STS (485):
+svm-train -g 0.0078125 -c 8192 STS.train
+Cross Validation Accuracy = 97.0124%
+
+
+Counseling (8):
+svm-train -t 0 -g 0.0078125 -c 128 Counsel.train
+Cross Validation Accuracy = 99.917%
+
+
+School Days (126):
+svm-train -t 0 -g 0.5 -c 8 SchoolDays.train
+Cross Validation Accuracy = 99.2808%
+
+
+SAIS (7): //inaccurate since small training data for SAIS category
+svm-train -g 0.0078125 -c 0.03125 SAIS.train
+Cross Validation Accuracy = 99.917%
+
+
+Academic Related (12):
+svm-train -t 1 -g 0.5 -c 8 Acad.train
+Cross Validation Accuracy = 99.8617%
+
+
+Closing (690):
+svm-train -g 0.001953125 -c 8192 Closing.train
+Cross Validation Accuracy = 97.6763%
+
+
+Other offices (108):
+svm-train -g 8 -c 2 Other.train
+Cross Validation Accuracy = 98.8658%

@@ -2436,7 +2436,7 @@ class PageController extends Controller{
 		}
 
 
-		$test = array('Hi! I\'ll be paying my SLB balance (for the last sem) on the first week of August. Will I still be able to participate in the SAIS registration this week? Thank you!');
+		$test = array('how to apply for slb?', 'payment for student loan board', 'magkano po interest kapag 100% slb?');
 
 		$test = array_map('strtolower', $test);
 		$collection = array_map('strtolower', $collection);

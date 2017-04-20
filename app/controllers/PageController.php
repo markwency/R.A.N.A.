@@ -180,7 +180,10 @@ class PageController extends Controller{
 		}
 
 		fclose($myfile);
-	
+
+		$argument = "-g 0.001953125 -c 8192 SLB.train";
+		exec("svm-train $argument");
+
 		echo json_encode("SLB Done.");	
 	}
 
@@ -2501,7 +2504,12 @@ class PageController extends Controller{
 
 		fclose($myfile2);
 	
-		echo json_encode("Test Data created.");	
+		$argument = "testData.test SLB.train.model SLB.out";
+		exec("svm-predict.exe $argument");
+
+		$class = file_get_contents('SLB.out');
+
+		echo json_encode($class);	
 	}
 
 }

@@ -355,6 +355,9 @@ class PageController extends Controller{
 
 		fclose($myfile);
 	
+		$argument = "-g 0.125 -c 2048 SA.train";
+		exec("svm-train $argument");
+
 		echo json_encode("SA Done.");	
 	}
 
@@ -527,6 +530,9 @@ class PageController extends Controller{
 
 		fclose($myfile);
 	
+		$argument = "-g 0.001953125 -c 8192 Closing.train";
+		exec("svm-train $argument");
+
 		echo json_encode("Closing done.");	
 	}
 
@@ -698,6 +704,9 @@ class PageController extends Controller{
 
 		fclose($myfile);
 	
+		$argument = "-t 0 -g 8 -c 128 CashLoan.train";
+		exec("svm-train $argument");
+
 		echo json_encode("Cash Loan done.");	
 	}
 
@@ -869,6 +878,9 @@ class PageController extends Controller{
 
 		fclose($myfile);
 	
+		$argument = "-t 0 -g 2 -c 32 OSAM.train";
+		exec("svm-train $argument");
+
 		echo json_encode("OSAM Done.");	
 	}
 
@@ -1040,6 +1052,9 @@ class PageController extends Controller{
 
 		fclose($myfile);
 	
+		$argument = "-t 0 -g 0.5 -c 128 Registration.train";
+		exec("svm-train $argument");
+
 		echo json_encode("Registration Done.");	
 	}
 
@@ -1211,6 +1226,9 @@ class PageController extends Controller{
 
 		fclose($myfile);
 	
+		$argument = "-g 0.125 -c 2048 StudentAct.train";
+		exec("svm-train $argument");
+
 		echo json_encode("Student Activity Done.");	
 	}
 
@@ -1382,6 +1400,9 @@ class PageController extends Controller{
 
 		fclose($myfile);
 	
+		$argument = "-t 0 -g 8 -c 8 Scholarship.train";
+		exec("svm-train $argument");
+
 		echo json_encode("Scholarship Done.");	
 	}
 
@@ -1553,6 +1574,9 @@ class PageController extends Controller{
 
 		fclose($myfile);
 	
+		$argument = "-g 0.0078125 -c 8192 STS.train";
+		exec("svm-train $argument");
+
 		echo json_encode("STS Done.");	
 	}
 
@@ -1723,6 +1747,9 @@ class PageController extends Controller{
 
 		fclose($myfile);
 	
+		$argument = "-t 0 -g 0.0078125 -c 128 Counsel.train";
+		exec("svm-train $argument");
+
 		echo json_encode("Counsel Done.");	
 	}
 
@@ -1894,6 +1921,9 @@ class PageController extends Controller{
 
 		fclose($myfile);
 	
+		$argument = "-t 0 -g 0.5 -c 8 SchoolDays.train";
+		exec("svm-train $argument");
+
 		echo json_encode("School Days Done.");	
 	}
 
@@ -2065,6 +2095,9 @@ class PageController extends Controller{
 
 		fclose($myfile);
 	
+		$argument = "-g 0.0078125 -c 0.03125 SAIS.train";
+		exec("svm-train $argument");
+
 		echo json_encode("SAIS Done.");	
 	}
 
@@ -2236,6 +2269,9 @@ class PageController extends Controller{
 
 		fclose($myfile);
 	
+		$argument = "-t 1 -g 0.5 -c 8 Acad.train";
+		exec("svm-train $argument");
+
 		echo json_encode("Acad Related Done.");	
 	}
 
@@ -2407,6 +2443,9 @@ class PageController extends Controller{
 
 		fclose($myfile);
 	
+		$argument = "-g 8 -c 2 Other.train";
+		exec("svm-train $argument");
+
 		echo json_encode("Other inquiries Done.");	
 	}
 
@@ -2439,7 +2478,7 @@ class PageController extends Controller{
 		}
 
 
-		$test = array('how to apply for slb?', 'payment for student loan board', 'magkano po interest kapag 100% slb?');
+		$test = array('where can i get the activity permit for my organization');
 
 		$test = array_map('strtolower', $test);
 		$collection = array_map('strtolower', $collection);
@@ -2503,13 +2542,141 @@ class PageController extends Controller{
 		}
 
 		fclose($myfile2);
-	
-		$argument = "testData.test SLB.train.model SLB.out";
+
+		$results = [];
+		
+		$argument = "testData.test SA.train.model result.out";
 		exec("svm-predict.exe $argument");
+		$class = file_get_contents('result.out');
+		array_push($results, $class);
 
-		$class = file_get_contents('SLB.out');
+		$argument = "testData.test SLB.train.model result.out";
+		exec("svm-predict.exe $argument");
+		$class = file_get_contents('result.out');
+		array_push($results, $class);
 
-		echo json_encode($class);	
+		$argument = "testData.test CashLoan.train.model result.out";
+		exec("svm-predict.exe $argument");
+		$class = file_get_contents('result.out');
+		array_push($results, $class);
+
+		$argument = "testData.test OSAM.train.model result.out";
+		exec("svm-predict.exe $argument");
+		$class = file_get_contents('result.out');
+		array_push($results, $class);
+
+		$argument = "testData.test Registration.train.model result.out";
+		exec("svm-predict.exe $argument");
+		$class = file_get_contents('result.out');
+		array_push($results, $class);
+
+		$argument = "testData.test StudentAct.train.model result.out";
+		exec("svm-predict.exe $argument");
+		$class = file_get_contents('result.out');
+		array_push($results, $class);
+
+		$argument = "testData.test Scholarship.train.model result.out";
+		exec("svm-predict.exe $argument");
+		$class = file_get_contents('result.out');
+		array_push($results, $class);
+
+		$argument = "testData.test STS.train.model result.out";
+		exec("svm-predict.exe $argument");
+		$class = file_get_contents('result.out');
+		array_push($results, $class);
+
+		$argument = "testData.test Counsel.train.model result.out";
+		exec("svm-predict.exe $argument");
+		$class = file_get_contents('result.out');
+		array_push($results, $class);
+
+		$argument = "testData.test SchoolDays.train.model result.out";
+		exec("svm-predict.exe $argument");
+		$class = file_get_contents('result.out');
+		array_push($results, $class);
+
+		$argument = "testData.test SAIS.train.model result.out";
+		exec("svm-predict.exe $argument");
+		$class = file_get_contents('result.out');
+		array_push($results, $class);
+
+		$argument = "testData.test Acad.train.model result.out";
+		exec("svm-predict.exe $argument");
+		$class = file_get_contents('result.out');
+		array_push($results, $class);
+
+		$argument = "testData.test Closing.train.model result.out";
+		exec("svm-predict.exe $argument");
+		$class = file_get_contents('result.out');
+		array_push($results, $class);
+
+		$argument = "testData.test Other.train.model result.out";
+		exec("svm-predict.exe $argument");
+		$class = file_get_contents('result.out');
+		array_push($results, $class);
+
+		$flag = 0;
+		$index = 0;
+
+		foreach ($results as $classification) {
+	
+			if($classification == 1){
+				
+				$flag = 1;	
+				if($index == 0){
+					echo json_encode("SA");
+				}
+				if($index == 1){
+					echo json_encode("SLB");
+				}
+				if($index == 2){
+					echo json_encode("Cash Loan");
+				}
+				if($index == 3){
+					echo json_encode("OSAM");
+				}
+				if($index == 4){
+					echo json_encode("Registration");
+				}
+				if($index == 5){
+					echo json_encode("Student Activity");
+				}
+				if($index == 6){
+					echo json_encode("Scholarship");
+				}
+				if($index == 7){
+					echo json_encode("STS");
+				}
+				if($index == 8){
+					echo json_encode("Counseling");
+				}
+				if($index == 9){
+					echo json_encode("School Days");
+				}
+				if($index == 10){
+					echo json_encode("SAIS");
+				}
+				if($index == 11){
+					echo json_encode("Academic Related");
+				}
+				if($index == 12){
+					echo json_encode("Closing");
+				}
+				if($index == 13){
+					echo json_encode("Other Offices");
+				}
+	
+			}
+			
+			$index++;
+
+		}
+
+		if($flag == 0){
+
+			echo json_encode("No category.");
+		
+		}
 	}
 
 }

@@ -8,7 +8,7 @@ class PageController extends Controller{
 
 		//var_dump($this->f3->get("SESSION"));
 
-		$this->f3->set('title', "Retrieval");
+		$this->f3->set('title', "Office of Student Affairs");
 		echo Template::instance()->render($this->f3->get('VIEWS').'index.htm');
 
 	}
@@ -2477,8 +2477,10 @@ class PageController extends Controller{
 
 		}
 
+		$inq = $_POST['inquiry'];
+		$test = [];
 
-		$test = array('where can i get the activity permit for my organization');
+		array_push($test, $inq);
 
 		$test = array_map('strtolower', $test);
 		$collection = array_map('strtolower', $collection);

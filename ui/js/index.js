@@ -288,9 +288,14 @@ $('#testButton').click(function(){
     $.ajax({
         type: 'POST',
         url: 'createTestData',
+        data: {
+          'inquiry':$('#inquiry').val()
+        },
         success: function(data) {
 
           data = JSON.parse(data);
+
+          document.getElementById("classification").innerHTML = data;
 
           Materialize.toast('Test Data created.', 3000);
           console.log(data);
